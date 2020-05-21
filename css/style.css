@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(222, 225, 228);
+    font-family: fantasy;
+    font: 100;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2% 0 1% 0;
+}
+
+
+/* this makes the image responsive */
+#image{
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-info {
+    text-align: center;
+    margin: 50px;
+}
+/* this centers everthing within the div in the middle */
+#tribute{
+    text-align: left;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#tribute ul li {
+    padding: 2%;
+    font-size: 1.1em;
+}
+
+
+
+#quote p {
+    padding-left: 6%;
+}
+
+section > article > div {
+    margin: 50px 0;
+}
+
+footer > p{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+ 
+}
+
+
+
+
+
+@media (max-width: 640px) {
+    #tribute{
+        text-align: left;  
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+
+    #quote p {
+        padding-left: 9%;
+    }
+
+}
